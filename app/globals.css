@@ -16,6 +16,12 @@
   }
 }
 
+@layer base {
+  body {
+    @apply transition-colors duration-300;
+  }
+}
+
 body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
